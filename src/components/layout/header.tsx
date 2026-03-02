@@ -43,7 +43,7 @@ export function Header() {
           </Sheet>
           <Link href="/" className="flex items-center gap-2 shrink-0">
             <div className="w-8 h-8 bg-white rounded-lg flex items-center justify-center">
-              <span className="text-purple-700 font-black text-lg">S</span>
+              <span className="text-purple-700 font-black text-lg">A</span>
             </div>
             <span className="text-white font-bold text-xl hidden sm:block">Amakart</span>
           </Link>
