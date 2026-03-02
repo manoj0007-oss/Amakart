@@ -9,8 +9,8 @@ import { CartDrawer } from "@/components/cart/cart-drawer";
 const inter = Inter({ subsets: ["latin"], variable: "--font-geist-sans" });
 
 export const metadata: Metadata = {
-  title: "ShopSphere - Your One-Stop Shopping Destination",
-  description: "Discover amazing deals on electronics, fashion, home & more at ShopSphere.",
+  title: "Amakart - Your One-Stop Shopping Destination",
+  description: "Discover amazing deals on electronics, fashion, home & more at Amakart.",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

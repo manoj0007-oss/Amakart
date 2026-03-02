@@ -28,5 +28,5 @@ export const useCartStore = create<CartStore>()(
     cartTax: () => Math.round(get().cartSubtotal() * 0.18),
     cartTotal: () => get().cartSubtotal() + get().cartShipping() + get().cartTax(),
     cartCount: () => get().items.reduce((s, i) => s + i.quantity, 0),
-  }), { name: 'shopsphere-cart', partialize: (s) => ({ items: s.items }) })
+  }), { name: 'amakart-cart', partialize: (s) => ({ items: s.items }) })
 );

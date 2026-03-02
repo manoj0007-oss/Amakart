@@ -30,7 +30,7 @@ export function Header() {
               <Button variant="ghost" size="icon" className="lg:hidden text-white hover:bg-white/10"><Menu className="h-6 w-6" /></Button>
             </SheetTrigger>
             <SheetContent side="left" className="w-72">
-              <SheetTitle className="text-lg font-bold text-purple-700">ShopSphere</SheetTitle>
+              <SheetTitle className="text-lg font-bold text-purple-700">Amakart</SheetTitle>
               <nav className="flex flex-col gap-3 mt-6">
                 <Link href="/" className="text-sm font-medium hover:text-purple-600 py-2 border-b">Home</Link>
                 <Link href="/products" className="text-sm font-medium hover:text-purple-600 py-2 border-b">All Products</Link>
@@ -45,7 +45,7 @@ export function Header() {
             <div className="w-8 h-8 bg-white rounded-lg flex items-center justify-center">
               <span className="text-purple-700 font-black text-lg">S</span>
             </div>
-            <span className="text-white font-bold text-xl hidden sm:block">ShopSphere</span>
+            <span className="text-white font-bold text-xl hidden sm:block">Amakart</span>
           </Link>
           <button className="hidden md:flex items-center gap-1 text-white/80 hover:text-white text-xs shrink-0">
             <MapPin className="h-4 w-4" />

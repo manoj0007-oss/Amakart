@@ -31,7 +31,7 @@ export default function CheckoutPage() {
           <CheckCircle2 className="h-24 w-24 text-green-500 mx-auto mb-6" />
         </motion.div>
         <h1 className="text-3xl font-bold text-gray-900 mb-2">Order Placed!</h1>
-        <p className="text-gray-500 mb-6">Thank you for shopping with ShopSphere.</p>
+        <p className="text-gray-500 mb-6">Thank you for shopping with Amakart.</p>
         <Button asChild className="bg-purple-700 hover:bg-purple-800"><Link href="/">Continue Shopping</Link></Button>
       </div>
     );
